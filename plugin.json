@@ -14,7 +14,8 @@
 			"cmds":[
 				"carbon", 
 				"code2img",
-				"代码", 
+				"代码",
+				"code", 				
 				"代码转图片",
 				{
 					"type": "files",
