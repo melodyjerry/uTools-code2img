@@ -1,7 +1,7 @@
 const shell = require("electron").shell;
 //打开外部链接
 
-
+/*
 const workUBrowser = window.utools.ubrowser.goto('https://carbon.now.sh/')
 
 workUBrowser.run({
@@ -13,6 +13,7 @@ workUBrowser.run({
   maximizable: false,
   resizable: false
 })
+*/
 
 window.exports = {
    "code2img": { // 注意：键对应的是 plugin.json 中的 features.code
