@@ -1,0 +1,38 @@
+{
+    "pluginName": "代码转图片",
+    "version": "0.0.1",
+    "description": "快速创建代码图像的工具，让你的代码分享逼格更高、排版更直观",
+    "author": "MelodyJerry",
+    "homepage": "https://blog.csdn.net/weixin_43438052",
+
+    "preload": "preload.js",
+    "logo": "carbon.jpg",
+	"features": [
+		{
+		  "code": "code2img",
+		  "explain": "快速创建代码图像的工具，让你的代码分享逼格更高、排版更直观",
+			"cmds":[
+				"carbon", 
+				"code2img",
+				"代码", 
+				"代码转图片",
+				{
+					"type": "files",
+					"fileType": "file",
+					"label": "代码文件转图片",
+					"maxLength": 1
+				},
+				{
+					"type": "regex",
+					"label": "代码转图片",
+					"match": "/./gi",
+					"minLength": 1
+				},
+				{
+					"type": "over",
+					"label": "代码转图片"
+				}
+			]
+		}
+	]
+}
