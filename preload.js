@@ -34,8 +34,13 @@ window.exports = {
 				height: 780,
 				fullscreenable: false,
 				alwaysOnTop: false,
-				maximizable: false,
-				resizable: false
+				maximizable: true,
+				// 窗口是否可以改变尺寸
+				resizable: true,
+				// 窗口在屏幕居中
+				center: true,
+				// 窗口是否可以进入全屏状态
+				fullscreenable: true
 			})
          }  
       } 
