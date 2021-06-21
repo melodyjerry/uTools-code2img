@@ -10,22 +10,29 @@
 		- 设置背景图像时还支持将`图像文件拖放到Carbon`来作为代码图像的背景
 		- 在自定义图像后，你可以`发送图像链接`或`下载保存图像`，保存图像支持`PNG`和`SVG`两种格式
 - 托管平台采用 [Vercel](https://vercel.com/) （贼推荐的哦~ 😎）
-- [MelodyJerry](https://blog.csdn.net/weixin_43438052/article/details/116896355) 是一个喜欢前端的后端搬砖工具人
+- [MelodyJerry](https://blog.csdn.net/weixin_43438052) 是一个喜欢前端的后端搬砖工具人
 - 源码仓库：[这里](https://github.com/melodyjerry/uTools-code2img)
 
 ![](https://gitee.com/melodyjerry163/filebed/raw/master//index.png)
 
-## todo：
+## todo
 
 - [ ] 识别uTools主输入框or剪切板中的内容：代码文本or代码文件
 - [ ] 生成的图像文件（png、svg）直接复制到剪切板
 - [ ] 生成的分享链接直接复制到剪切板
 - [ ] 待续……
 
+## changeLog
 
-## changeLog：
+1. v0.0.2：
 
-1. v0.0.1：
+- 允许窗体为“改变尺寸”、“全屏运行”
+
+2. v0.0.1：
 
 - 完成基础窗体
+
+## 赞赏
+
+<img src="https://gitee.com/melodyjerry163/filebed/raw/master/小槑收款码-MelodyJerry.png" alt="收款码-MelodyJerry.png" style="zoom:50%;" />
 
